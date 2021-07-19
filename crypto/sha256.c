@@ -10,7 +10,7 @@
 uint8_t *sha256(int8_t const *s, size_t len,
 		uint8_t digest[SHA256_DIGEST_LENGTH])
 {
-    /*SHA_CTX structure*/
+	/*SHA_CTX structure*/
 	SHA256_CTX context;
 
 	/*Initialize a SHA_CTX structure.*/
@@ -34,4 +34,3 @@ uint8_t *sha256(int8_t const *s, size_t len,
 
 	return (digest);
 }
-{"mode":"full","isActive":false}
